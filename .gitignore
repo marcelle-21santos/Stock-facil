@@ -155,3 +155,43 @@ vite.config.ts.timestamp-*
 .nx/cache
 .nx/workspace-data
 .nx/migrate-runs
+
+# Electron packaged applications and installers
+/release/
+*.app/
+*.dmg
+*.exe
+*.msi
+*.blockmap
+builder-debug.yml
+latest*.yml
+
+# Local databases, backups, and SQLite journal files
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.db-wal
+*.db-shm
+*.bak
+*.backup
+
+# Credentials, signing keys, and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+*.provisionprofile
+*.certSigningRequest
+/.npmrc
+!.npmrc.example
+
+# Operating-system and editor artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~

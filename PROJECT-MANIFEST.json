@@ -1,0 +1,27 @@
+{
+  "project": "Stock Fácil",
+  "version": "1.0.0",
+  "files": [
+    ".gitignore",
+    "README.md",
+    "docs/ARQUITETURA.md",
+    "docs/ESCOPO-FUNCIONAL.md",
+    "docs/PLANO-DE-ENTREGA.md",
+    "electron.vite.config.ts",
+    "package.json",
+    "src/main/database.ts",
+    "src/main/index.ts",
+    "src/main/security.ts",
+    "src/main/services.ts",
+    "src/preload/index.ts",
+    "src/renderer/index.html",
+    "src/renderer/src/App.tsx",
+    "src/renderer/src/global.d.ts",
+    "src/renderer/src/main.tsx",
+    "src/renderer/src/styles.scss",
+    "src/shared/contracts.ts",
+    "tests/contracts.test.ts",
+    "tsconfig.json"
+  ],
+  "note": "Starter project. Read README.md and docs before running or distributing."
+}
